@@ -1,0 +1,49 @@
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #00008b;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 50px;
+    color: green;
+    margin: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#increment {
+    background-color: green;
+}
+
+#decrement {
+    background-color: red;
+}
+
+#reset {
+    background-color: blue;
+}
+
+#increment:hover {
+    background-color: darkgreen;
+}
+
+#decrement:hover {
+    background-color: darkred;
+}
+
+#reset:hover {
+    background-color: darkblue;
+}
